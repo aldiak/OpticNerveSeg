@@ -17,7 +17,7 @@ This repository contains all code for the annotation pipeline, preprocessing scr
 
 - **151 subjects** with high-quality binary masks
 - **Multimodal data**: T1w structural MRI + multi-shell diffusion MRI (b=1000,2000,3000 s/mm²)
-- **Anatomical coverage**: bilateral cranial nerve II, optic chiasm, and optic tracts
+- **Anatomical coverage**: cranial nerve II including optic nerve, optic chiasm, and optic tracts
 - **Rich metadata**: mean radius, curvature, length, SNR, contrast, partial volume indices
 - **Human-in-the-loop annotations**: 16 expert tractography seeds + semi-supervised inference + expert correction
 - **76% reduction** in expert annotation time compared to full manual segmentation
@@ -53,7 +53,7 @@ OpticNerveSeg/
 ├── scripts/                   # All code
 │   ├── tractography/          # MRtrix3 tractography pipeline
 │   │   ├── 01_estimate_fod.sh
-│   │   ├── 02_act_tractography.sh
+│   │   ├── 02_tractography.sh
 │   │   └── 03_voxelize.sh
 │   ├── semi_supervised/       # Semi-supervised baseline methods
 │   │   ├── dataloader/

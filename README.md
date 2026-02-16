@@ -40,27 +40,26 @@ The dataset is available on Zenodo: [https://zenodo.org/records/XXXXXXX](https:/
 ```bash
 git clone https://github.com/siat-nlp/OpticNerveSeg.git
 cd OpticNerveSeg
+MRtrix3
+FSL
 pip install -r requirements.txt
 ```
 ## 📁 Repository Structure
-OpticNerveSeg/
+Code/
 ├── masks/                     # Binary segmentation masks (151 subjects)
-│   ├── 100206_label.nii.gz
-│   ├── 100307_label.nii.gz
-│   └── ...
+│   └── download on zenodo
 ├── metadata/                  # Subject-level metadata
 │   └── subjects_metadata.csv
 ├── scripts/                   # All code
 │   ├── tractography/          # MRtrix3 tractography pipeline
-│   │   ├── 01_estimate_fod.sh
-│   │   ├── 02_tractography.sh
-│   │   └── 03_voxelize.sh
+│   │   ├── 01_dwi_tensor.sh
+│   │   └── 02_tractography.sh
 │   ├── semi_supervised/       # Semi-supervised baseline methods
-│   │   ├── dataloader/
+│   │   ├── dataloaders/
 │   │   ├── utils/
 │   │   ├── networks/
 │   │   ├── test_utils.py
-│   │   ├── train.py
+│   │   ├── evaluate.py
 │   │   ├── infer.py
 │   │   └── run_all_alg.py
 ├── requirements.txt           # Python dependencies

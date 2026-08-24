@@ -44,7 +44,7 @@ The dataset is available on BALSA: [https://balsa.wustl.edu/study/N9G6D](https:/
 ### Installation
 
 ```bash
-git clone https://github.com/siat-nlp/OpticNerveSeg.git
+git clone https://github.com/aldiak/OpticNerveSeg.git
 cd OpticNerveSeg
 pip install -r scripts/requirements.txt
 ```

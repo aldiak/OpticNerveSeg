@@ -20,7 +20,7 @@ This repository contains all code for the annotation pipeline, preprocessing scr
 - **Anatomical coverage**: cranial nerve II including optic nerve, optic chiasm, and optic tracts
 - **Rich metadata**: mean radius, curvature, length, SNR, contrast, partial volume indices
 - **Human-in-the-loop annotations**: 18 expert-annotated subjects (tractography-based seed annotations) + semi-supervised inference on 151 subjects + expert correction on 20 flagged cases
-- **76% reduction** in expert annotation time compared to full manual segmentation
+- **75% reduction** in expert annotation time compared to full manual segmentation
 - **7 semi-supervised baselines** (mean teacher, uncertainty-aware mean teacher, UGMCL, entropy minimization, ICT, URPC, LeFeD) plus a fully supervised 3D U-Net baseline, with configurable labeled/unlabeled splits
 - **Pretrained checkpoints included** for the LeFeD (Stage 1) and 3D U-Net (supervised baseline) models, 5-fold each, along with the exact train/test split manifests used
 

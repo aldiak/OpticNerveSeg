@@ -48,6 +48,11 @@ git clone https://github.com/aldiak/OpticNerveSeg.git
 cd OpticNerveSeg
 pip install -r scripts/requirements.txt
 ```
+## Training and Inference
+
+```
+For training, download the data and change the path in run_all_alg.py and run it.
+For Testing, change the data path and run infer.py.
 
 ## 📁 Repository Structure
 

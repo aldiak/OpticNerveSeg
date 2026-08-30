@@ -54,7 +54,8 @@ pip install -r scripts/requirements.txt
 For training, download the data and change the path in run_all_alg.py and run it.
 For Testing, change the data path and run infer.py.
 
-The data downloaded from BAlSA needs to be converted to H5 before training and inference
+The stage I test data can be obtained from us (Email: aldiak95@gmail.com) before training and inference to get Table I results.
+The final data downloaded from BAlSA needs to be converted to H5 before training and inference to get Table II results.
 ```
 
 ## 📁 Repository Structure

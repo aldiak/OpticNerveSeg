@@ -28,7 +28,7 @@ This repository contains all code for the annotation pipeline, preprocessing scr
 
 The dataset is available on BALSA: [https://balsa.wustl.edu/study/N9G6D](https://balsa.wustl.edu/study/N9G6D)
 
-The H5 files are available below:
+The H5 files are available below and please donwload them only after registration on BALSA:
 
 通过网盘分享的文件：hcp_ours_cn    ### use this for 3D Unet inference
 链接: https://pan.baidu.com/s/1GOshJMFU4A_w_MJReVXt2w?pwd=mgca 提取码: mgca

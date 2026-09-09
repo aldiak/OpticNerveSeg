@@ -28,6 +28,16 @@ This repository contains all code for the annotation pipeline, preprocessing scr
 
 The dataset is available on BALSA: [https://balsa.wustl.edu/study/N9G6D](https://balsa.wustl.edu/study/N9G6D)
 
+The H5 files are available below:
+
+通过网盘分享的文件：hcp_ours_cn    ### use this for 3D Unet inference
+链接: https://pan.baidu.com/s/1GOshJMFU4A_w_MJReVXt2w?pwd=mgca 提取码: mgca
+
+And this for LeFed Inference:
+
+通过网盘分享的文件：data_split
+链接: https://pan.baidu.com/s/1y7Zo2wqXzPDJzkbpDkWzUg?pwd=ubmb 提取码: ubmb
+
 **Contents:**
 - 151 binary masks and T1w images (`.nii.gz`) at 1.25 mm isotropic resolution
 - Metadata CSV with subject-level anatomical and image quality features
@@ -83,4 +93,8 @@ OpticNerveSeg/
 └── README.md                  # This file
 ```
 
+
 Masks and T1w images themselves are not stored in this repository — they are distributed via BALSA (see [Dataset Access](#-dataset-access) above).
+
+
+
